@@ -46,7 +46,8 @@
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const INFURA_API_KEY = "https://eth-sepolia.g.alchemy.com/v2/Rr_l1ZBrnmCIH7zifGDUAbXDPKoQJDlD";
-const MNEMONIC = "mask kangaroo erode tennis age destroy frown rebel ordinary exotic mother ahead";
+const MNEMONIC = "";
+
 
 module.exports = {
   /**
