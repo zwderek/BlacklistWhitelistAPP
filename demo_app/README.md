@@ -1,8 +1,9 @@
-truffle compile
-truffle migrate --network sepolia
+## React App
 
-0xE422254A424fd7b25f8446891b722feB2E4544f6
+```
+npm start
+```
+users can purchase tokens at the fixed rate
+token owner can whitelist or blacklist addresses
 
-truffle console --network sepolia
-contract = await Token.at('0xE422254A424fd7b25f8446891b722feB2E4544f6')
-await contract.getStatus('0x404B28830DB2f4005Da7e8602Bf5a0592Cf32A77')
+![](image/app.png)
